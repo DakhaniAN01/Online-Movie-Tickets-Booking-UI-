@@ -1,0 +1,13 @@
+:root{
+    --colour-primary:#ce351ac9 ;
+    --colour-primary:#1a9bcec9 ;
+    --colour-secondary: 
+}
+
+.bg-primary{
+    background-color: #ce351ac9;
+}
+
+.bg-secondary{
+    background-color: #1a9bcec9;
+}
