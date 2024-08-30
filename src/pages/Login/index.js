@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button, Flex } from 'antd';
+import { Button } from 'antd';
 
 function Login() {
   return (
-    <div>
+    <div className="flex justify-center  h-screen items-center">
       <Button type="primary">Primary Button</Button>
     </div>
   )

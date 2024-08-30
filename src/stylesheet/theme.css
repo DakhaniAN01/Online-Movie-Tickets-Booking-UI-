@@ -1,7 +1,7 @@
 :root{
     --colour-primary:#ce351ac9 ;
-    --colour-primary:#1a9bcec9 ;
-    --colour-secondary: 
+    --colour-secondary:#1a9bcec9 ;
+    
 }
 
 .bg-primary{
@@ -10,4 +10,20 @@
 
 .bg-secondary{
     background-color: #1a9bcec9;
+}
+
+.text-primary{
+    color: var(--colour-primary)
+}
+
+.test-secondary{
+    color: var(--colour-secondary)
+}
+
+.border-primary{
+    border-color: var(--colour-primary)
+}
+
+.border-secondary{
+    border-color: var(--colour-secondary)
 }
