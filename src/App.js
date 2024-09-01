@@ -2,6 +2,11 @@ import {BrowserRouter ,Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import "./stylesheet/alignment.css";
+import "./stylesheet/custom.css";
+import "./stylesheet/form-elements.css";
+import "./stylesheet/sizes.css";
+import "./stylesheet/theme.css";
 
 function App() {
   return (
