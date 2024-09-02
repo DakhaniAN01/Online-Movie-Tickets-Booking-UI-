@@ -11,11 +11,11 @@ function Register() {
   return (
     <div className='flex justify-center h-screen items-center bg-primary'>
       <div className="card p-3 w-400">
-        <h1 className='text-xl mb-2' >BOOKMYTICKETS - REGISTER </h1>
+        <h1 className='text-xl mb-1' >BOOKMYTICKETS - REGISTER </h1>
         <hr />
         <Form
           layout='vertical'
-          className='mt-2'
+          className='mt-1'
           onFinish={onFinish}
         >
           <Form.Item
