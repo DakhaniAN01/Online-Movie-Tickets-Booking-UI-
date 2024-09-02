@@ -9,11 +9,19 @@
 }
 
 .bg-secondary{
-    background-color: #1a9bcec9;
+    background-color: #b2c2c9c9;
+}
+
+.bg-white{
+    color: #fff;
+}
+
+.bg-black{
+    color: #000;
 }
 
 .text-primary{
-    color: var(--colour-primary) !important;
+    color: #000000 !important;
 }
 
 .test-secondary{
@@ -33,5 +41,14 @@
 }
 
 .border-secondary{
-    border-color: var(--colour-secondary);
+    border-color: #888b8f;
+}
+
+.container{
+    
+    height: 50px;
+}
+
+.btn{
+    height: 60%;
 }

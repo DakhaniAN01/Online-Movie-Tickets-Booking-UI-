@@ -32,13 +32,13 @@ function Login() {
           >
             <input type="password" />
           </Form.Item>
-          {/*}<div className='.flex flex-column mt-1 gap'> 
-            <Button fullwidth title='REGISTER' type='submit' />
+          <div className='.flex flex-column mt-1 gap container '>
+            <button className='w-full bg-secondary border btn border-secondary text-primary bg-white' onClick={() => { console.log("Registered Successful") }} type='submit'>LOGIN</button>
             <Link to='/login' className='text-primary'>
               {" "}
               Don't have an account? Register
             </Link>
-              </div> */}
+          </div>
 
 
         </Form>

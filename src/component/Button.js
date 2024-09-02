@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button(title, onClick, variant, disabled, fullwidth) {
+function Button(title, onClick, variant, disabled, fullwidth, type) {
   
   let className = "bg-secondary p-1 text-white"
 
@@ -11,7 +11,7 @@ function Button(title, onClick, variant, disabled, fullwidth) {
     className=className.replace('bg-secondary', 'border border-secondary text-primary bg-white')
   }
   return (
-   <button className={className}>{title}</button>
+   <button className={className} type={type}>{title}</button>
   )
 }
 
