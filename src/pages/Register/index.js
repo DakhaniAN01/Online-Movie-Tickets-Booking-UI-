@@ -3,6 +3,10 @@ import { Form } from 'antd';
 import Button from '../../component/Button';
 
 function Register() {
+
+  const onFinish = (values) => {
+    console.log("Success:", values);
+  }
   return (
     <div className='flex justify-center h-screen items-center bg-primary'>
       <div className="card p-3 w-400">
@@ -11,6 +15,7 @@ function Register() {
         <Form
           layout='vertical'
           className='mt-2'
+          onFinish={onFinish}
         >
           <Form.Item
             label="Name"
@@ -33,8 +38,8 @@ function Register() {
           >
             <input type="password" />
           </Form.Item>
-          <div className='.flex flex-column mt-1 gap'> <Button fullwidth title='REGISTER' type='submit'/> </div>
-          
+          <div className='.flex flex-column mt-1 gap'> <Button fullwidth title='REGISTER' type='submit' /> </div>
+
 
         </Form>
 
