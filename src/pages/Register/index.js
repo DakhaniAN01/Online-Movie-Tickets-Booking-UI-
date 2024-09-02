@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form } from 'antd';
 import Button from '../../component/Button';
+import Link from 'antd/es/typography/Link';
 
 function Register() {
 
@@ -38,7 +39,13 @@ function Register() {
           >
             <input type="password" />
           </Form.Item>
-          <div className='.flex flex-column mt-1 gap'> <Button fullwidth title='REGISTER' type='submit' /> </div>
+          {/*}<div className='.flex flex-column mt-1 gap'> 
+            <Button fullwidth title='REGISTER' type='submit' />
+            <Link to='/login' className='text-primary'>
+              {" "}
+              Already have an account? Login
+            </Link>
+              </div> */}
 
 
         </Form>
